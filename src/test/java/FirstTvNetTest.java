@@ -23,7 +23,7 @@ public class FirstTvNetTest {
         browserWindow.manage().window().maximize();
         browserWindow.get("http://tvnet.lv");
         browserWindow.findElement(ACCEPT_COOKIES_BTN);
-        
+
         WebDriverWait wait = new WebDriverWait(browserWindow, 10);
         WebDriver mailWait = (WebDriver) new WebDriverWait(browserWindow, 60, 2000);
 
@@ -33,5 +33,7 @@ public class FirstTvNetTest {
 //      acceptBtn.click();
 
         browserWindow.findElement(ACCEPT_COOKIES_BTN).click();
+
+        //comment for GIT
     }
 }
