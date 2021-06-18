@@ -15,6 +15,25 @@ public class FirstTvNetTest {
 
     private final By ACCEPT_COOKIES_BTN = By.xpath(".//button[@mode = 'primary']");
 
+    //------------------FOR----------------------
+    // for (int i = 0; i < titles.size(); i = i + 1) {
+    //  if (!titles.get(i).getText().isEmpty()) {  // !true = false  !false = true
+    //       System.out.println(i + ": " + titles.get(i).getText());
+    //  }
+
+    //  }
+    //------------------FOREACH------------------
+    //for (WebElement we : titles) {
+    //           if (!we.getText().isEmpty()) {
+    //               System.out.println(we.getText());//
+    //               } else {
+    //               System.out.println("---------------");
+    //          }
+    // условие ? если true : false (else)
+    //  System.out.println(we.getText().isEmpty() ? "-------" : we.getText());
+
+
+
     @Test
     public void firstTest() {
         //WebDriver = browser window
